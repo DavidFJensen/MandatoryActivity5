@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+
+package MandatoryActivity5;
+
+option go_package = "MandatoryActivity5/Node.go";
+
+service Auction {
+  rpc Bid(BidRequest) returns (BidResponse);
+  rpc Result(ResultRequest) returns (ResultResponse);
+}
+
+
+message BidRequest {
+  string bidder = 1;
+  int32 amount = 2;
+}
+
+message BidResponse {
+  string message = 1;
+}
+
+message ResultRequest {
+  string message = 1;
+}
+
+message ResultResponse {
+  string highestbid = 1;
+}
+
