@@ -101,7 +101,7 @@ func (s *AuctionServer) Result(ctx context.Context, req *pb.ResultRequest) (*pb.
 	defer s.mu.Unlock()
 
 	if time.Since(s.startTime) < 100*time.Second {
-		return &pb.ResultResponse{Highestbid: fmt.Sprintf("Highest bid: %d by %s", s.highestBid, s.highestBidder)}, nil
+		return &pb.ResultResponse{Highestbid: fmt.Sprintf("%d", s.highestBid)}, nil
 	}
 
 	return &pb.ResultResponse{Highestbid: fmt.Sprintf("Auction over. Winner: %s with bid %d", s.highestBidder, s.highestBid)}, nil

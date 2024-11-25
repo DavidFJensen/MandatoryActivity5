@@ -27,4 +27,3 @@ message ResultRequest {
 message ResultResponse {
   string highestbid = 1;
 }
-

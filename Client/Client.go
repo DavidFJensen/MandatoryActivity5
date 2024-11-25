@@ -51,6 +51,12 @@ func main() {
 					continue
 				}
 
+				// Check if the auction is over
+				if resultResp.GetHighestbid() == "" || resultResp.GetHighestbid()[:13] == "Auction over." {
+					log.Printf("Auction result: %s", resultResp.GetHighestbid())
+					return
+				}
+
 				// Place a new bid higher than the current highest bid
 				currentHighestBid, err := strconv.Atoi(resultResp.GetHighestbid())
 				if err != nil {
