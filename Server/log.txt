@@ -1,1029 +1,240 @@
-2024/11/25 18:45:43 server listening at [::]:50051
-2024/11/25 18:45:48 server listening at [::]:50052
-2024/11/25 18:45:53 Node 1 is active
-2024/11/25 18:45:53 Node 2 is active
-2024/11/25 18:45:54 server listening at [::]:50053
-2024/11/25 18:45:54 Node 3 is active
-2024/11/25 18:45:58 Node 1 is active
-2024/11/25 18:45:58 Node 2 is active
-2024/11/25 18:45:58 Node 3 is active
-2024/11/25 18:46:04 Node 1 is active
-2024/11/25 18:46:04 Node 2 is active
-2024/11/25 18:46:04 Node 3 is active
-2024/11/25 18:46:04 Node 1 is active
-2024/11/25 18:46:04 Node 2 is active
-2024/11/25 18:46:04 Node 3 is active
-2024/11/25 18:46:05 Current highest bid: 0 by 
-2024/11/25 18:46:05 Bid from Alice with amount 1 succeeded
-2024/11/25 18:46:05 Current highest bid: 1 by Alice
-2024/11/25 18:46:05 Bid from Alice with amount 1 succeeded
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Current highest bid: 1 by Alice
-2024/11/25 18:46:05 Bid from Alice with amount 1 succeeded
-2024/11/25 18:46:05 Current highest bid: 1 by Alice
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:05 Bid from Alice with amount 1 failed
-2024/11/25 18:46:07 Current highest bid: 1 by Alice
-2024/11/25 18:46:07 Bid from Bob with amount 2 succeeded
-2024/11/25 18:46:07 Current highest bid: 2 by Bob
-2024/11/25 18:46:07 Bid from Bob with amount 2 succeeded
-2024/11/25 18:46:07 Current highest bid: 2 by Bob
-2024/11/25 18:46:07 Bid from Bob with amount 2 succeeded
-2024/11/25 18:46:07 Current highest bid: 2 by Bob
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:07 Bid from Bob with amount 2 failed
-2024/11/25 18:46:08 Node 1 is active
-2024/11/25 18:46:08 Node 2 is active
-2024/11/25 18:46:08 Node 3 is active
-2024/11/25 18:46:09 Current highest bid: 2 by Bob
-2024/11/25 18:46:09 Bid from Bob with amount 3 succeeded
-2024/11/25 18:46:09 Current highest bid: 3 by Bob
-2024/11/25 18:46:09 Bid from Bob with amount 3 succeeded
-2024/11/25 18:46:09 Current highest bid: 3 by Bob
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 succeeded
-2024/11/25 18:46:09 Current highest bid: 3 by Bob
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:09 Bid from Bob with amount 3 failed
-2024/11/25 18:46:10 Current highest bid: 3 by Bob
-2024/11/25 18:46:10 Bid from Alice with amount 4 succeeded
-2024/11/25 18:46:10 Current highest bid: 4 by Alice
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 succeeded
-2024/11/25 18:46:10 Bid from Alice with amount 4 succeeded
-2024/11/25 18:46:10 Current highest bid: 4 by Alice
-2024/11/25 18:46:10 Current highest bid: 4 by Alice
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:10 Bid from Alice with amount 4 failed
-2024/11/25 18:46:11 Current highest bid: 4 by Alice
-2024/11/25 18:46:11 Bid from Bob with amount 5 succeeded
-2024/11/25 18:46:11 Current highest bid: 5 by Bob
-2024/11/25 18:46:11 Bid from Bob with amount 5 succeeded
-2024/11/25 18:46:11 Current highest bid: 5 by Bob
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 succeeded
-2024/11/25 18:46:11 Current highest bid: 5 by Bob
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:11 Bid from Bob with amount 5 failed
-2024/11/25 18:46:14 Node 1 is active
-2024/11/25 18:46:14 Node 2 is active
-2024/11/25 18:46:14 Node 3 is active
-2024/11/25 18:46:14 Node 1 is active
-2024/11/25 18:46:14 Node 2 is active
-2024/11/25 18:46:14 Node 3 is active
-2024/11/25 18:46:15 Current highest bid: 5 by Bob
-2024/11/25 18:46:15 Bid from Alice with amount 6 succeeded
-2024/11/25 18:46:15 Current highest bid: 6 by Alice
-2024/11/25 18:46:15 Bid from Alice with amount 6 succeeded
-2024/11/25 18:46:15 Bid from Alice with amount 6 succeeded
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Current highest bid: 6 by Alice
-2024/11/25 18:46:15 Current highest bid: 6 by Alice
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:15 Bid from Alice with amount 6 failed
-2024/11/25 18:46:16 Current highest bid: 6 by Alice
-2024/11/25 18:46:16 Bid from Bob with amount 7 succeeded
-2024/11/25 18:46:16 Current highest bid: 7 by Bob
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 succeeded
-2024/11/25 18:46:16 Current highest bid: 7 by Bob
-2024/11/25 18:46:16 Bid from Bob with amount 7 succeeded
-2024/11/25 18:46:16 Current highest bid: 7 by Bob
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:16 Bid from Bob with amount 7 failed
-2024/11/25 18:46:17 Current highest bid: 7 by Bob
-2024/11/25 18:46:17 Bid from Alice with amount 8 succeeded
-2024/11/25 18:46:17 Current highest bid: 8 by Alice
-2024/11/25 18:46:17 Bid from Alice with amount 8 succeeded
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Current highest bid: 8 by Alice
-2024/11/25 18:46:17 Bid from Alice with amount 8 succeeded
-2024/11/25 18:46:17 Current highest bid: 8 by Alice
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:17 Bid from Alice with amount 8 failed
-2024/11/25 18:46:18 Node 1 is active
-2024/11/25 18:46:18 Node 2 is active
-2024/11/25 18:46:18 Node 3 is active
-2024/11/25 18:46:19 Current highest bid: 8 by Alice
-2024/11/25 18:46:19 Bid from Bob with amount 9 succeeded
-2024/11/25 18:46:19 Current highest bid: 9 by Bob
-2024/11/25 18:46:19 Bid from Bob with amount 9 succeeded
-2024/11/25 18:46:19 Current highest bid: 9 by Bob
-2024/11/25 18:46:19 Bid from Bob with amount 9 succeeded
-2024/11/25 18:46:19 Current highest bid: 9 by Bob
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Current highest bid: 9 by Bob
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Bob with amount 9 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 succeeded
-2024/11/25 18:46:19 Current highest bid: 10 by Alice
-2024/11/25 18:46:19 Bid from Alice with amount 10 succeeded
-2024/11/25 18:46:19 Current highest bid: 10 by Alice
-2024/11/25 18:46:19 Bid from Alice with amount 10 succeeded
-2024/11/25 18:46:19 Current highest bid: 10 by Alice
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:19 Bid from Alice with amount 10 failed
-2024/11/25 18:46:20 Current highest bid: 10 by Alice
-2024/11/25 18:46:20 Bid from Alice with amount 11 succeeded
-2024/11/25 18:46:20 Current highest bid: 11 by Alice
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 succeeded
-2024/11/25 18:46:20 Current highest bid: 11 by Alice
-2024/11/25 18:46:20 Bid from Alice with amount 11 succeeded
-2024/11/25 18:46:20 Current highest bid: 11 by Alice
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:20 Bid from Alice with amount 11 failed
-2024/11/25 18:46:22 Current highest bid: 11 by Alice
-2024/11/25 18:46:22 Bid from Alice with amount 12 succeeded
-2024/11/25 18:46:22 Current highest bid: 12 by Alice
-2024/11/25 18:46:22 Bid from Alice with amount 12 succeeded
-2024/11/25 18:46:22 Bid from Alice with amount 12 succeeded
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Current highest bid: 12 by Alice
-2024/11/25 18:46:22 Current highest bid: 12 by Alice
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:22 Bid from Alice with amount 12 failed
-2024/11/25 18:46:23 Current highest bid: 12 by Alice
-2024/11/25 18:46:23 Bid from Bob with amount 13 succeeded
-2024/11/25 18:46:23 Current highest bid: 13 by Bob
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 succeeded
-2024/11/25 18:46:23 Bid from Bob with amount 13 succeeded
-2024/11/25 18:46:23 Current highest bid: 13 by Bob
-2024/11/25 18:46:23 Current highest bid: 13 by Bob
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Bid from Bob with amount 13 failed
-2024/11/25 18:46:23 Current highest bid: 13 by Bob
-2024/11/25 18:46:23 Bid from Alice with amount 14 succeeded
-2024/11/25 18:46:23 Current highest bid: 14 by Alice
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 succeeded
-2024/11/25 18:46:23 Bid from Alice with amount 14 succeeded
-2024/11/25 18:46:23 Current highest bid: 14 by Alice
-2024/11/25 18:46:23 Current highest bid: 14 by Alice
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:23 Bid from Alice with amount 14 failed
-2024/11/25 18:46:24 Node 1 is active
-2024/11/25 18:46:24 Node 2 is active
-2024/11/25 18:46:24 Node 3 is active
-2024/11/25 18:46:24 Node 1 is active
-2024/11/25 18:46:24 Node 2 is active
-2024/11/25 18:46:24 Node 3 is active
-2024/11/25 18:46:25 Current highest bid: 14 by Alice
-2024/11/25 18:46:25 Bid from Bob with amount 15 succeeded
-2024/11/25 18:46:25 Current highest bid: 15 by Bob
-2024/11/25 18:46:25 Bid from Bob with amount 15 succeeded
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Current highest bid: 15 by Bob
-2024/11/25 18:46:25 Bid from Bob with amount 15 succeeded
-2024/11/25 18:46:25 Current highest bid: 15 by Bob
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:25 Bid from Bob with amount 15 failed
-2024/11/25 18:46:26 Current highest bid: 15 by Bob
-2024/11/25 18:46:26 Bid from Alice with amount 16 succeeded
-2024/11/25 18:46:26 Current highest bid: 16 by Alice
-2024/11/25 18:46:26 Bid from Alice with amount 16 succeeded
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Current highest bid: 16 by Alice
-2024/11/25 18:46:26 Bid from Alice with amount 16 succeeded
-2024/11/25 18:46:26 Current highest bid: 16 by Alice
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:26 Bid from Alice with amount 16 failed
-2024/11/25 18:46:27 Current highest bid: 16 by Alice
-2024/11/25 18:46:27 Bid from Bob with amount 17 succeeded
-2024/11/25 18:46:27 Current highest bid: 17 by Bob
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 succeeded
-2024/11/25 18:46:27 Current highest bid: 17 by Bob
-2024/11/25 18:46:27 Bid from Bob with amount 17 succeeded
-2024/11/25 18:46:27 Current highest bid: 17 by Bob
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Bid from Bob with amount 17 failed
-2024/11/25 18:46:27 Current highest bid: 17 by Bob
-2024/11/25 18:46:27 Bid from Alice with amount 18 succeeded
-2024/11/25 18:46:27 Current highest bid: 18 by Alice
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 succeeded
-2024/11/25 18:46:27 Current highest bid: 18 by Alice
-2024/11/25 18:46:27 Bid from Alice with amount 18 succeeded
-2024/11/25 18:46:27 Current highest bid: 18 by Alice
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:27 Bid from Alice with amount 18 failed
-2024/11/25 18:46:28 Node 1 is active
-2024/11/25 18:46:28 Node 2 is active
-2024/11/25 18:46:28 Node 3 is active
-2024/11/25 18:46:31 Current highest bid: 18 by Alice
-2024/11/25 18:46:31 Bid from Bob with amount 19 succeeded
-2024/11/25 18:46:31 Current highest bid: 19 by Bob
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 succeeded
-2024/11/25 18:46:31 Current highest bid: 19 by Bob
-2024/11/25 18:46:31 Bid from Bob with amount 19 succeeded
-2024/11/25 18:46:31 Current highest bid: 19 by Bob
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Bid from Bob with amount 19 failed
-2024/11/25 18:46:31 Current highest bid: 19 by Bob
-2024/11/25 18:46:31 Bid from Alice with amount 20 succeeded
-2024/11/25 18:46:31 Current highest bid: 20 by Alice
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 succeeded
-2024/11/25 18:46:31 Bid from Alice with amount 20 succeeded
-2024/11/25 18:46:31 Current highest bid: 20 by Alice
-2024/11/25 18:46:31 Current highest bid: 20 by Alice
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:31 Bid from Alice with amount 20 failed
-2024/11/25 18:46:34 Node 1 is active
-2024/11/25 18:46:34 Node 2 is active
-2024/11/25 18:46:34 Node 3 is active
-2024/11/25 18:46:34 Node 1 is active
-2024/11/25 18:46:34 Node 2 is active
-2024/11/25 18:46:34 Node 3 is active
-2024/11/25 18:46:35 Current highest bid: 20 by Alice
-2024/11/25 18:46:35 Bid from Alice with amount 21 succeeded
-2024/11/25 18:46:35 Current highest bid: 21 by Alice
-2024/11/25 18:46:35 Bid from Alice with amount 21 succeeded
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Current highest bid: 21 by Alice
-2024/11/25 18:46:35 Bid from Alice with amount 21 succeeded
-2024/11/25 18:46:35 Current highest bid: 21 by Alice
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:35 Bid from Alice with amount 21 failed
-2024/11/25 18:46:36 Current highest bid: 21 by Alice
-2024/11/25 18:46:36 Bid from Bob with amount 22 succeeded
-2024/11/25 18:46:36 Current highest bid: 22 by Bob
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 succeeded
-2024/11/25 18:46:36 Current highest bid: 22 by Bob
-2024/11/25 18:46:36 Bid from Bob with amount 22 succeeded
-2024/11/25 18:46:36 Current highest bid: 22 by Bob
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:36 Bid from Bob with amount 22 failed
-2024/11/25 18:46:38 Node 1 is active
-2024/11/25 18:46:38 Node 2 is active
-2024/11/25 18:46:38 Node 3 is active
-2024/11/25 18:46:38 Current highest bid: 22 by Bob
-2024/11/25 18:46:38 Bid from Alice with amount 23 succeeded
-2024/11/25 18:46:38 Current highest bid: 23 by Alice
-2024/11/25 18:46:38 Bid from Alice with amount 23 succeeded
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Current highest bid: 23 by Alice
-2024/11/25 18:46:38 Bid from Alice with amount 23 succeeded
-2024/11/25 18:46:38 Current highest bid: 23 by Alice
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:38 Bid from Alice with amount 23 failed
-2024/11/25 18:46:41 Current highest bid: 23 by Alice
-2024/11/25 18:46:41 Bid from Bob with amount 24 succeeded
-2024/11/25 18:46:41 Current highest bid: 24 by Bob
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 succeeded
-2024/11/25 18:46:41 Current highest bid: 24 by Bob
-2024/11/25 18:46:41 Bid from Bob with amount 24 succeeded
-2024/11/25 18:46:41 Current highest bid: 24 by Bob
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Bid from Bob with amount 24 failed
-2024/11/25 18:46:41 Current highest bid: 24 by Bob
-2024/11/25 18:46:41 Bid from Alice with amount 25 succeeded
-2024/11/25 18:46:41 Current highest bid: 25 by Alice
-2024/11/25 18:46:41 Bid from Alice with amount 25 succeeded
-2024/11/25 18:46:41 Current highest bid: 25 by Alice
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 succeeded
-2024/11/25 18:46:41 Current highest bid: 25 by Alice
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:41 Bid from Alice with amount 25 failed
-2024/11/25 18:46:42 Current highest bid: 25 by Alice
-2024/11/25 18:46:42 Bid from Bob with amount 26 succeeded
-2024/11/25 18:46:42 Current highest bid: 26 by Bob
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 succeeded
-2024/11/25 18:46:42 Current highest bid: 26 by Bob
-2024/11/25 18:46:42 Bid from Bob with amount 26 succeeded
-2024/11/25 18:46:42 Current highest bid: 26 by Bob
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:42 Bid from Bob with amount 26 failed
-2024/11/25 18:46:44 Node 1 is active
-2024/11/25 18:46:44 Node 2 is active
-2024/11/25 18:46:44 Node 3 is active
-2024/11/25 18:46:44 Current highest bid: 26 by Bob
-2024/11/25 18:46:44 Bid from Alice with amount 27 succeeded
-2024/11/25 18:46:44 Current highest bid: 27 by Alice
-2024/11/25 18:46:44 Bid from Alice with amount 27 succeeded
-2024/11/25 18:46:44 Current highest bid: 27 by Alice
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 succeeded
-2024/11/25 18:46:44 Current highest bid: 27 by Alice
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Bid from Alice with amount 27 failed
-2024/11/25 18:46:44 Node 1 is active
-2024/11/25 18:46:44 Node 2 is active
-2024/11/25 18:46:44 Node 3 is active
-2024/11/25 18:46:47 Current highest bid: 27 by Alice
-2024/11/25 18:46:47 Bid from Bob with amount 28 succeeded
-2024/11/25 18:46:47 Current highest bid: 28 by Bob
-2024/11/25 18:46:47 Bid from Bob with amount 28 succeeded
-2024/11/25 18:46:47 Current highest bid: 28 by Bob
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 succeeded
-2024/11/25 18:46:47 Current highest bid: 28 by Bob
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:47 Bid from Bob with amount 28 failed
-2024/11/25 18:46:48 Node 1 is active
-2024/11/25 18:46:48 Node 2 is active
-2024/11/25 18:46:48 Node 3 is active
-2024/11/25 18:46:48 Current highest bid: 28 by Bob
-2024/11/25 18:46:48 Bid from Bob with amount 29 succeeded
-2024/11/25 18:46:48 Current highest bid: 29 by Bob
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 succeeded
-2024/11/25 18:46:48 Bid from Bob with amount 29 succeeded
-2024/11/25 18:46:48 Current highest bid: 29 by Bob
-2024/11/25 18:46:48 Current highest bid: 29 by Bob
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:48 Bid from Bob with amount 29 failed
-2024/11/25 18:46:49 Current highest bid: 29 by Bob
-2024/11/25 18:46:49 Bid from Alice with amount 30 succeeded
-2024/11/25 18:46:49 Current highest bid: 30 by Alice
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 succeeded
-2024/11/25 18:46:49 Current highest bid: 30 by Alice
-2024/11/25 18:46:49 Bid from Alice with amount 30 succeeded
-2024/11/25 18:46:49 Current highest bid: 30 by Alice
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:49 Bid from Alice with amount 30 failed
-2024/11/25 18:46:50 Current highest bid: 30 by Alice
-2024/11/25 18:46:50 Bid from Bob with amount 31 succeeded
-2024/11/25 18:46:50 Current highest bid: 31 by Bob
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 succeeded
-2024/11/25 18:46:50 Current highest bid: 31 by Bob
-2024/11/25 18:46:50 Bid from Bob with amount 31 succeeded
-2024/11/25 18:46:50 Current highest bid: 31 by Bob
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:50 Bid from Bob with amount 31 failed
-2024/11/25 18:46:52 Current highest bid: 31 by Bob
-2024/11/25 18:46:52 Bid from Alice with amount 32 succeeded
-2024/11/25 18:46:52 Current highest bid: 32 by Alice
-2024/11/25 18:46:52 Bid from Alice with amount 32 succeeded
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Current highest bid: 32 by Alice
-2024/11/25 18:46:52 Bid from Alice with amount 32 succeeded
-2024/11/25 18:46:52 Current highest bid: 32 by Alice
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:52 Bid from Alice with amount 32 failed
-2024/11/25 18:46:53 Current highest bid: 32 by Alice
-2024/11/25 18:46:53 Bid from Alice with amount 33 succeeded
-2024/11/25 18:46:53 Current highest bid: 33 by Alice
-2024/11/25 18:46:53 Bid from Alice with amount 33 succeeded
-2024/11/25 18:46:53 Bid from Alice with amount 33 succeeded
-2024/11/25 18:46:53 Current highest bid: 33 by Alice
-2024/11/25 18:46:53 Current highest bid: 33 by Alice
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:53 Bid from Alice with amount 33 failed
-2024/11/25 18:46:54 Node 1 is active
-2024/11/25 18:46:54 Node 2 is active
-2024/11/25 18:46:54 Node 3 is active
-2024/11/25 18:46:54 Current highest bid: 33 by Alice
-2024/11/25 18:46:54 Bid from Bob with amount 34 succeeded
-2024/11/25 18:46:54 Current highest bid: 34 by Bob
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 succeeded
-2024/11/25 18:46:54 Bid from Bob with amount 34 succeeded
-2024/11/25 18:46:54 Current highest bid: 34 by Bob
-2024/11/25 18:46:54 Current highest bid: 34 by Bob
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Bid from Bob with amount 34 failed
-2024/11/25 18:46:54 Node 1 is active
-2024/11/25 18:46:54 Node 2 is active
-2024/11/25 18:46:54 Node 3 is active
-2024/11/25 18:46:57 Current highest bid: 34 by Bob
-2024/11/25 18:46:57 Bid from Alice with amount 35 succeeded
-2024/11/25 18:46:57 Current highest bid: 35 by Alice
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 succeeded
-2024/11/25 18:46:57 Current highest bid: 35 by Alice
-2024/11/25 18:46:57 Bid from Alice with amount 35 succeeded
-2024/11/25 18:46:57 Current highest bid: 35 by Alice
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:57 Bid from Alice with amount 35 failed
-2024/11/25 18:46:58 Node 1 is active
-2024/11/25 18:46:58 Node 2 is active
-2024/11/25 18:46:58 Node 3 is active
-2024/11/25 18:46:58 Current highest bid: 35 by Alice
-2024/11/25 18:46:58 Bid from Bob with amount 36 succeeded
-2024/11/25 18:46:58 Current highest bid: 36 by Bob
-2024/11/25 18:46:58 Bid from Bob with amount 36 succeeded
-2024/11/25 18:46:58 Current highest bid: 36 by Bob
-2024/11/25 18:46:58 Bid from Bob with amount 36 succeeded
-2024/11/25 18:46:58 Current highest bid: 36 by Bob
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:58 Bid from Bob with amount 36 failed
-2024/11/25 18:46:59 Current highest bid: 36 by Bob
-2024/11/25 18:46:59 Bid from Bob with amount 37 succeeded
-2024/11/25 18:46:59 Current highest bid: 37 by Bob
-2024/11/25 18:46:59 Bid from Bob with amount 37 succeeded
-2024/11/25 18:46:59 Current highest bid: 37 by Bob
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 succeeded
-2024/11/25 18:46:59 Current highest bid: 37 by Bob
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:46:59 Bid from Bob with amount 37 failed
-2024/11/25 18:47:01 Current highest bid: 37 by Bob
-2024/11/25 18:47:01 Bid from Alice with amount 38 succeeded
-2024/11/25 18:47:01 Current highest bid: 38 by Alice
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 succeeded
-2024/11/25 18:47:01 Current highest bid: 38 by Alice
-2024/11/25 18:47:01 Bid from Alice with amount 38 succeeded
-2024/11/25 18:47:01 Current highest bid: 38 by Alice
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:01 Bid from Alice with amount 38 failed
-2024/11/25 18:47:02 Current highest bid: 38 by Alice
-2024/11/25 18:47:02 Bid from Bob with amount 39 succeeded
-2024/11/25 18:47:02 Current highest bid: 39 by Bob
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 succeeded
-2024/11/25 18:47:02 Current highest bid: 39 by Bob
-2024/11/25 18:47:02 Bid from Bob with amount 39 succeeded
-2024/11/25 18:47:02 Current highest bid: 39 by Bob
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:02 Bid from Bob with amount 39 failed
-2024/11/25 18:47:04 Node 1 is active
-2024/11/25 18:47:04 Node 2 is active
-2024/11/25 18:47:04 Node 3 is active
-2024/11/25 18:47:04 Current highest bid: 39 by Bob
-2024/11/25 18:47:04 Bid from Bob with amount 40 succeeded
-2024/11/25 18:47:04 Current highest bid: 40 by Bob
-2024/11/25 18:47:04 Bid from Bob with amount 40 succeeded
-2024/11/25 18:47:04 Current highest bid: 40 by Bob
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Bob with amount 40 succeeded
-2024/11/25 18:47:04 Current highest bid: 40 by Bob
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Current highest bid: 40 by Bob
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 succeeded
-2024/11/25 18:47:04 Current highest bid: 41 by Alice
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Bob with amount 40 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 succeeded
-2024/11/25 18:47:04 Bid from Alice with amount 41 succeeded
-2024/11/25 18:47:04 Current highest bid: 41 by Alice
-2024/11/25 18:47:04 Current highest bid: 41 by Alice
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Bid from Alice with amount 41 failed
-2024/11/25 18:47:04 Node 1 is active
-2024/11/25 18:47:04 Node 2 is active
-2024/11/25 18:47:04 Node 3 is active
-2024/11/25 18:47:05 Current highest bid: 41 by Alice
-2024/11/25 18:47:05 Bid from Alice with amount 42 succeeded
-2024/11/25 18:47:05 Current highest bid: 42 by Alice
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 succeeded
-2024/11/25 18:47:05 Current highest bid: 42 by Alice
-2024/11/25 18:47:05 Bid from Alice with amount 42 succeeded
-2024/11/25 18:47:05 Current highest bid: 42 by Alice
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:05 Bid from Alice with amount 42 failed
-2024/11/25 18:47:08 Node 1 is active
-2024/11/25 18:47:08 Node 2 is active
-2024/11/25 18:47:08 Node 3 is active
-2024/11/25 18:47:09 Current highest bid: 42 by Alice
-2024/11/25 18:47:09 Bid from Bob with amount 43 succeeded
-2024/11/25 18:47:09 Current highest bid: 43 by Bob
-2024/11/25 18:47:09 Bid from Bob with amount 43 succeeded
-2024/11/25 18:47:09 Current highest bid: 43 by Bob
-2024/11/25 18:47:09 Bid from Bob with amount 43 succeeded
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Current highest bid: 43 by Bob
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:09 Bid from Bob with amount 43 failed
-2024/11/25 18:47:10 Current highest bid: 43 by Bob
-2024/11/25 18:47:10 Bid from Alice with amount 44 succeeded
-2024/11/25 18:47:10 Current highest bid: 44 by Alice
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 succeeded
-2024/11/25 18:47:10 Current highest bid: 44 by Alice
-2024/11/25 18:47:10 Bid from Alice with amount 44 succeeded
-2024/11/25 18:47:10 Current highest bid: 44 by Alice
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:10 Bid from Alice with amount 44 failed
-2024/11/25 18:47:11 Current highest bid: 44 by Alice
-2024/11/25 18:47:11 Bid from Alice with amount 45 succeeded
-2024/11/25 18:47:11 Current highest bid: 45 by Alice
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 succeeded
-2024/11/25 18:47:11 Bid from Alice with amount 45 succeeded
-2024/11/25 18:47:11 Current highest bid: 45 by Alice
-2024/11/25 18:47:11 Current highest bid: 45 by Alice
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:11 Bid from Alice with amount 45 failed
-2024/11/25 18:47:12 Current highest bid: 45 by Alice
-2024/11/25 18:47:12 Bid from Alice with amount 46 succeeded
-2024/11/25 18:47:12 Current highest bid: 46 by Alice
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 succeeded
-2024/11/25 18:47:12 Bid from Alice with amount 46 succeeded
-2024/11/25 18:47:12 Current highest bid: 46 by Alice
-2024/11/25 18:47:12 Current highest bid: 46 by Alice
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:12 Bid from Alice with amount 46 failed
-2024/11/25 18:47:14 Node 1 is active
-2024/11/25 18:47:14 Node 2 is active
-2024/11/25 18:47:14 Node 3 is active
-2024/11/25 18:47:14 Current highest bid: 46 by Alice
-2024/11/25 18:47:14 Bid from Bob with amount 47 succeeded
-2024/11/25 18:47:14 Current highest bid: 47 by Bob
-2024/11/25 18:47:14 Bid from Bob with amount 47 succeeded
-2024/11/25 18:47:14 Current highest bid: 47 by Bob
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 succeeded
-2024/11/25 18:47:14 Current highest bid: 47 by Bob
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Bid from Bob with amount 47 failed
-2024/11/25 18:47:14 Current highest bid: 47 by Bob
-2024/11/25 18:47:14 Bid from Alice with amount 48 succeeded
-2024/11/25 18:47:14 Current highest bid: 48 by Alice
-2024/11/25 18:47:14 Bid from Alice with amount 48 succeeded
-2024/11/25 18:47:14 Current highest bid: 48 by Alice
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 succeeded
-2024/11/25 18:47:14 Current highest bid: 48 by Alice
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Bid from Alice with amount 48 failed
-2024/11/25 18:47:14 Node 1 is active
-2024/11/25 18:47:14 Node 2 is active
-2024/11/25 18:47:14 Node 3 is active
-2024/11/25 18:47:15 Current highest bid: 48 by Alice
-2024/11/25 18:47:15 Bid from Bob with amount 49 succeeded
-2024/11/25 18:47:15 Current highest bid: 49 by Bob
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 succeeded
-2024/11/25 18:47:15 Current highest bid: 49 by Bob
-2024/11/25 18:47:15 Bid from Bob with amount 49 succeeded
-2024/11/25 18:47:15 Current highest bid: 49 by Bob
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:15 Bid from Bob with amount 49 failed
-2024/11/25 18:47:17 Current highest bid: 49 by Bob
-2024/11/25 18:47:17 Bid from Bob with amount 50 succeeded
-2024/11/25 18:47:17 Current highest bid: 50 by Bob
-2024/11/25 18:47:17 Bid from Bob with amount 50 succeeded
-2024/11/25 18:47:17 Current highest bid: 50 by Bob
-2024/11/25 18:47:17 Bid from Bob with amount 50 succeeded
-2024/11/25 18:47:17 Current highest bid: 50 by Bob
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Bid from Bob with amount 50 failed
-2024/11/25 18:47:17 Current highest bid: 50 by Bob
-2024/11/25 18:47:17 Bid from Alice with amount 51 succeeded
-2024/11/25 18:47:17 Current highest bid: 51 by Alice
-2024/11/25 18:47:17 Bid from Alice with amount 51 succeeded
-2024/11/25 18:47:17 Current highest bid: 51 by Alice
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 succeeded
-2024/11/25 18:47:17 Current highest bid: 51 by Alice
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:17 Bid from Alice with amount 51 failed
-2024/11/25 18:47:18 Node 1 is active
-2024/11/25 18:47:18 Node 2 is active
-2024/11/25 18:47:18 Node 3 is active
-2024/11/25 18:47:20 Current highest bid: 51 by Alice
-2024/11/25 18:47:20 Bid from Alice with amount 52 succeeded
-2024/11/25 18:47:20 Current highest bid: 52 by Alice
-2024/11/25 18:47:20 Bid from Alice with amount 52 succeeded
-2024/11/25 18:47:20 Current highest bid: 52 by Alice
-2024/11/25 18:47:20 Bid from Alice with amount 52 succeeded
-2024/11/25 18:47:20 Current highest bid: 52 by Alice
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:20 Bid from Alice with amount 52 failed
-2024/11/25 18:47:21 Current highest bid: 52 by Alice
-2024/11/25 18:47:21 Bid from Bob with amount 53 succeeded
-2024/11/25 18:47:21 Current highest bid: 53 by Bob
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 succeeded
-2024/11/25 18:47:21 Bid from Bob with amount 53 succeeded
-2024/11/25 18:47:21 Current highest bid: 53 by Bob
-2024/11/25 18:47:21 Current highest bid: 53 by Bob
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:21 Bid from Bob with amount 53 failed
-2024/11/25 18:47:22 Current highest bid: 53 by Bob
-2024/11/25 18:47:22 Bid from Alice with amount 54 succeeded
-2024/11/25 18:47:22 Current highest bid: 54 by Alice
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 succeeded
-2024/11/25 18:47:22 Current highest bid: 54 by Alice
-2024/11/25 18:47:22 Bid from Alice with amount 54 succeeded
-2024/11/25 18:47:22 Current highest bid: 54 by Alice
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:22 Bid from Alice with amount 54 failed
-2024/11/25 18:47:24 Node 1 is active
-2024/11/25 18:47:24 Node 2 is active
-2024/11/25 18:47:24 Node 3 is active
-2024/11/25 18:47:24 Current highest bid: 54 by Alice
-2024/11/25 18:47:24 Bid from Bob with amount 55 succeeded
-2024/11/25 18:47:24 Current highest bid: 55 by Bob
-2024/11/25 18:47:24 Bid from Bob with amount 55 succeeded
-2024/11/25 18:47:24 Current highest bid: 55 by Bob
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 succeeded
-2024/11/25 18:47:24 Current highest bid: 55 by Bob
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Bid from Bob with amount 55 failed
-2024/11/25 18:47:24 Current highest bid: 55 by Bob
-2024/11/25 18:47:24 Bid from Alice with amount 56 succeeded
-2024/11/25 18:47:24 Current highest bid: 56 by Alice
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 succeeded
-2024/11/25 18:47:24 Current highest bid: 56 by Alice
-2024/11/25 18:47:24 Bid from Alice with amount 56 succeeded
-2024/11/25 18:47:24 Current highest bid: 56 by Alice
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Bid from Alice with amount 56 failed
-2024/11/25 18:47:24 Node 1 is active
-2024/11/25 18:47:24 Node 2 is active
-2024/11/25 18:47:24 Node 3 is active
-2024/11/25 18:47:28 Node 1 is active
-2024/11/25 18:47:28 Node 2 is active
-2024/11/25 18:47:28 Node 3 is active
-2024/11/25 18:47:28 Auction over. Winner: Alice with bid 56
-2024/11/25 18:47:29 Auction over. Winner: Alice with bid 56
-2024/11/25 18:47:34 Node 1 is active
-2024/11/25 18:47:34 Node 2 is active
-2024/11/25 18:47:34 Node 3 is active
-2024/11/25 18:47:34 Node 1 is active
-2024/11/25 18:47:34 Node 2 is active
-2024/11/25 18:47:34 Node 3 is active
-2024/11/25 18:47:38 Node 1 is active
-2024/11/25 18:47:38 Node 2 is active
-2024/11/25 18:47:38 Node 3 is active
-2024/11/25 18:47:44 Node 1 is active
-2024/11/25 18:47:44 Node 2 is active
-2024/11/25 18:47:44 Node 3 is active
-2024/11/25 18:47:44 Node 1 is active
-2024/11/25 18:47:44 Node 2 is active
-2024/11/25 18:47:44 Node 3 is active
-2024/11/25 18:47:48 Node 1 is active
-2024/11/25 18:47:48 Node 2 is active
-2024/11/25 18:47:48 Node 3 is active
-2024/11/25 18:47:54 Node 1 is active
-2024/11/25 18:47:54 Node 2 is active
-2024/11/25 18:47:54 Node 3 is active
-2024/11/25 18:47:54 Node 1 is active
-2024/11/25 18:47:54 Node 2 is active
-2024/11/25 18:47:54 Node 3 is active
-2024/11/25 18:47:58 Node 1 is active
-2024/11/25 18:47:58 Node 2 is active
-2024/11/25 18:47:58 Node 3 is active
-2024/11/25 18:48:04 Node 1 is active
-2024/11/25 18:48:04 Node 2 is active
-2024/11/25 18:48:04 Node 3 is active
-2024/11/25 18:48:04 Node 1 is active
-2024/11/25 18:48:04 Node 2 is active
-2024/11/25 18:48:04 Node 3 is active
-2024/11/25 18:48:08 Node 1 is active
-2024/11/25 18:48:08 Node 2 is active
-2024/11/25 18:48:08 Node 3 is active
-2024/11/25 18:48:14 Node 1 is active
-2024/11/25 18:48:14 Node 2 is active
-2024/11/25 18:48:14 Node 3 is active
-2024/11/25 18:48:14 Node 1 is active
-2024/11/25 18:48:14 Node 2 is active
-2024/11/25 18:48:14 Node 3 is active
-2024/11/25 18:48:18 Node 1 is active
-2024/11/25 18:48:18 Node 2 is active
-2024/11/25 18:48:18 Node 3 is active
-2024/11/25 18:48:24 Node 1 is active
-2024/11/25 18:48:24 Node 2 is active
-2024/11/25 18:48:24 Node 3 is active
-2024/11/25 18:48:24 Node 1 is active
-2024/11/25 18:48:24 Node 2 is active
-2024/11/25 18:48:24 Node 3 is active
-2024/11/25 18:48:28 Node 1 is active
-2024/11/25 18:48:28 Node 2 is active
-2024/11/25 18:48:28 Node 3 is active
-2024/11/25 18:48:34 Node 1 is active
-2024/11/25 18:48:34 Node 2 is active
-2024/11/25 18:48:34 Node 3 is active
-2024/11/25 18:48:34 Node 1 is active
-2024/11/25 18:48:34 Node 2 is active
-2024/11/25 18:48:34 Node 3 is active
-2024/11/25 18:48:38 Node 1 is active
-2024/11/25 18:48:38 Node 2 is active
-2024/11/25 18:48:38 Node 3 is active
-2024/11/25 18:48:44 Node 1 is active
-2024/11/25 18:48:44 Node 2 is active
-2024/11/25 18:48:44 Node 3 is active
-2024/11/25 18:48:44 Node 1 is active
-2024/11/25 18:48:45 Node 2 is active
-2024/11/25 18:48:45 Node 3 is active
-2024/11/25 18:48:48 Node 1 is active
-2024/11/25 18:48:48 Node 2 is active
-2024/11/25 18:48:48 Node 3 is active
-2024/11/25 18:48:54 Node 1 is active
-2024/11/25 18:48:54 Node 2 is active
-2024/11/25 18:48:54 Node 3 is active
-2024/11/25 18:48:55 Node 1 is active
-2024/11/25 18:48:55 Node 2 is active
-2024/11/25 18:48:55 Node 3 is active
-2024/11/25 18:48:58 Node 1 is active
-2024/11/25 18:48:58 Node 2 is active
-2024/11/25 18:48:58 Node 3 is active
-2024/11/25 18:49:04 Node 1 is active
-2024/11/25 18:49:04 Node 2 is active
-2024/11/25 18:49:04 Node 3 is active
-2024/11/25 18:49:05 Node 1 is active
-2024/11/25 18:49:05 Node 2 is active
-2024/11/25 18:49:05 Node 3 is active
-2024/11/25 18:49:08 Node 1 is active
-2024/11/25 18:49:08 Node 2 is active
-2024/11/25 18:49:08 Node 3 is active
-2024/11/25 18:49:14 Node 1 is active
-2024/11/25 18:49:14 Node 2 is active
-2024/11/25 18:49:14 Node 3 is active
-2024/11/25 18:49:15 Node 1 is active
-2024/11/25 18:49:15 Node 2 is active
-2024/11/25 18:49:15 Node 3 is active
-2024/11/25 18:49:18 Node 1 is active
-2024/11/25 18:49:18 Node 2 is active
-2024/11/25 18:49:18 Node 3 is active
-2024/11/25 18:49:24 Node 1 is active
-2024/11/25 18:49:24 Node 2 is active
-2024/11/25 18:49:24 Node 3 is active
-2024/11/25 18:49:25 Node 1 is active
-2024/11/25 18:49:25 Node 2 is active
-2024/11/25 18:49:25 Node 3 is active
-2024/11/25 18:49:28 Node 1 is active
-2024/11/25 18:49:28 Node 2 is active
-2024/11/25 18:49:28 Node 3 is active
-2024/11/25 18:49:34 Node 1 is active
-2024/11/25 18:49:34 Node 2 is active
-2024/11/25 18:49:34 Node 3 is active
-2024/11/25 18:49:35 Node 1 is active
-2024/11/25 18:49:35 Node 2 is active
-2024/11/25 18:49:35 Node 3 is active
-2024/11/25 18:49:38 Node 1 is active
-2024/11/25 18:49:38 Node 2 is active
-2024/11/25 18:49:38 Node 3 is active
-2024/11/25 18:49:44 Node 1 is active
-2024/11/25 18:49:44 Node 2 is active
-2024/11/25 18:49:44 Node 3 is active
-2024/11/25 18:49:45 Node 1 is active
-2024/11/25 18:49:45 Node 2 is active
-2024/11/25 18:49:45 Node 3 is active
-2024/11/25 18:49:48 Node 1 is active
-2024/11/25 18:49:48 Node 2 is active
-2024/11/25 18:49:48 Node 3 is active
-2024/11/25 18:49:54 Node 1 is active
-2024/11/25 18:49:54 Node 2 is active
-2024/11/25 18:49:54 Node 3 is active
-2024/11/25 18:49:55 Node 1 is active
-2024/11/25 18:49:55 Node 2 is active
-2024/11/25 18:49:55 Node 3 is active
-2024/11/25 18:49:58 Node 1 is active
-2024/11/25 18:49:58 Node 2 is active
-2024/11/25 18:49:58 Node 3 is active
-2024/11/25 18:50:04 Node 1 is active
-2024/11/25 18:50:04 Node 2 is active
-2024/11/25 18:50:04 Node 3 is active
-2024/11/25 18:50:05 Node 1 is active
-2024/11/25 18:50:05 Node 2 is active
-2024/11/25 18:50:05 Node 3 is active
-2024/11/25 18:50:08 Node 1 is active
-2024/11/25 18:50:08 Node 2 is active
-2024/11/25 18:50:08 Node 3 is active
-2024/11/25 18:50:14 Node 1 is active
-2024/11/25 18:50:14 Node 2 is active
-2024/11/25 18:50:14 Node 3 is active
-2024/11/25 18:50:15 Node 1 is active
-2024/11/25 18:50:15 Node 2 is active
-2024/11/25 18:50:15 Node 3 is active
-2024/11/25 18:50:18 Node 1 is active
-2024/11/25 18:50:18 Node 2 is active
-2024/11/25 18:50:18 Node 3 is active
+2024/11/25 20:21:31 server listening at [::]:50051
+2024/11/25 20:21:35 server listening at [::]:50052
+2024/11/25 20:21:41 Node 1 is active
+2024/11/25 20:21:41 Node 2 is active
+2024/11/25 20:21:42 server listening at [::]:50053
+2024/11/25 20:21:43 Node 3 is down
+2024/11/25 20:21:45 Node 1 is active
+2024/11/25 20:21:45 Node 2 is active
+2024/11/25 20:21:45 Node 3 is active
+2024/11/25 20:21:52 Node 1 is active
+2024/11/25 20:21:52 Node 2 is active
+2024/11/25 20:21:52 Node 3 is active
+2024/11/25 20:21:53 Current highest bid: 0 by 
+2024/11/25 20:21:53 Bid from Bob with amount 1 succeeded
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Bid from Bob with amount 1 succeeded
+2024/11/25 20:21:53 Bid from Bob with amount 1 succeeded
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Bid from Bob with amount 1 failed
+2024/11/25 20:21:53 Node 1 is active
+2024/11/25 20:21:53 Node 2 is active
+2024/11/25 20:21:53 Node 3 is active
+2024/11/25 20:21:54 Current highest bid: 1 by Bob
+2024/11/25 20:21:54 Bid from Alice with amount 2 succeeded
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 succeeded
+2024/11/25 20:21:54 Bid from Alice with amount 2 succeeded
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:54 Bid from Alice with amount 2 failed
+2024/11/25 20:21:55 Current highest bid: 2 by Alice
+2024/11/25 20:21:55 Bid from Alice with amount 3 succeeded
+2024/11/25 20:21:55 Current highest bid: 2 by Alice
+2024/11/25 20:21:55 Bid from Bob with amount 3 succeeded
+2024/11/25 20:21:55 Bid from Alice with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 succeeded
+2024/11/25 20:21:55 Bid from Alice with amount 3 failed
+2024/11/25 20:21:55 Bid from Alice with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 failed
+2024/11/25 20:21:55 Bid from Bob with amount 3 failed
+2024/11/25 20:21:55 Node 1 is active
+2024/11/25 20:21:55 Node 2 is active
+2024/11/25 20:21:55 Node 3 is active
+2024/11/25 20:21:56 Current highest bid: 3 by Bob
+2024/11/25 20:21:56 Current highest bid: 3 by Bob
+2024/11/25 20:21:56 Bid from Alice with amount 4 succeeded
+2024/11/25 20:21:56 Bid from Bob with amount 4 succeeded
+2024/11/25 20:21:56 Bid from Alice with amount 4 failed
+2024/11/25 20:21:56 Bid from Alice with amount 4 succeeded
+2024/11/25 20:21:56 Bid from Alice with amount 4 failed
+2024/11/25 20:21:56 Bid from Bob with amount 4 failed
+2024/11/25 20:21:56 Bid from Bob with amount 4 failed
+2024/11/25 20:21:56 Bid from Bob with amount 4 failed
+2024/11/25 20:21:56 Bid from Alice with amount 4 failed
+2024/11/25 20:21:56 Bid from Alice with amount 4 failed
+2024/11/25 20:21:56 Bid from Alice with amount 4 failed
+2024/11/25 20:21:59 Current highest bid: 4 by Alice
+2024/11/25 20:21:59 Bid from Alice with amount 5 succeeded
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 succeeded
+2024/11/25 20:21:59 Bid from Alice with amount 5 succeeded
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:21:59 Bid from Alice with amount 5 failed
+2024/11/25 20:22:00 Current highest bid: 5 by Alice
+2024/11/25 20:22:00 Bid from Bob with amount 6 succeeded
+2024/11/25 20:22:00 Bid from Bob with amount 6 succeeded
+2024/11/25 20:22:00 Bid from Bob with amount 6 succeeded
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:00 Bid from Bob with amount 6 failed
+2024/11/25 20:22:02 Current highest bid: 6 by Bob
+2024/11/25 20:22:02 Bid from Alice with amount 7 succeeded
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 succeeded
+2024/11/25 20:22:02 Bid from Alice with amount 7 succeeded
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Bid from Alice with amount 7 failed
+2024/11/25 20:22:02 Node 1 is active
+2024/11/25 20:22:02 Node 2 is active
+2024/11/25 20:22:02 Node 3 is active
+2024/11/25 20:22:03 Node 1 is active
+2024/11/25 20:22:03 Node 2 is active
+2024/11/25 20:22:03 Node 3 is active
+2024/11/25 20:22:04 Current highest bid: 7 by Alice
+2024/11/25 20:22:04 Bid from Bob with amount 8 succeeded
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 succeeded
+2024/11/25 20:22:04 Bid from Bob with amount 8 succeeded
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:04 Bid from Bob with amount 8 failed
+2024/11/25 20:22:05 Node 1 is active
+2024/11/25 20:22:05 Node 2 is active
+2024/11/25 20:22:05 Node 3 is active
+2024/11/25 20:22:06 Current highest bid: 8 by Bob
+2024/11/25 20:22:06 Bid from Bob with amount 9 succeeded
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 succeeded
+2024/11/25 20:22:06 Bid from Bob with amount 9 succeeded
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:06 Bid from Bob with amount 9 failed
+2024/11/25 20:22:07 Current highest bid: 9 by Bob
+2024/11/25 20:22:07 Bid from Alice with amount 10 succeeded
+2024/11/25 20:22:07 Bid from Alice with amount 10 succeeded
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 succeeded
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:07 Bid from Alice with amount 10 failed
+2024/11/25 20:22:11 Current highest bid: 10 by Alice
+2024/11/25 20:22:11 Bid from Bob with amount 11 succeeded
+2024/11/25 20:22:11 Bid from Bob with amount 11 succeeded
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 succeeded
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:11 Bid from Bob with amount 11 failed
+2024/11/25 20:22:12 Current highest bid: 11 by Bob
+2024/11/25 20:22:12 Bid from Alice with amount 12 succeeded
+2024/11/25 20:22:12 Bid from Alice with amount 12 succeeded
+2024/11/25 20:22:12 Bid from Alice with amount 12 succeeded
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Current highest bid: 12 by Alice
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 succeeded
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Alice with amount 12 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 succeeded
+2024/11/25 20:22:12 Bid from Bob with amount 13 succeeded
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Bid from Bob with amount 13 failed
+2024/11/25 20:22:12 Node 1 is active
+2024/11/25 20:22:12 Node 2 is active
+2024/11/25 20:22:12 Node 3 is active
+2024/11/25 20:22:13 Current highest bid: 13 by Bob
+2024/11/25 20:22:13 Bid from Bob with amount 14 succeeded
+2024/11/25 20:22:13 Bid from Bob with amount 14 succeeded
+2024/11/25 20:22:13 Bid from Bob with amount 14 succeeded
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Bid from Bob with amount 14 failed
+2024/11/25 20:22:13 Node 1 is active
+2024/11/25 20:22:13 Node 2 is active
+2024/11/25 20:22:13 Node 3 is active
+2024/11/25 20:22:15 Current highest bid: 14 by Bob
+2024/11/25 20:22:15 Bid from Bob with amount 15 succeeded
+2024/11/25 20:22:15 Bid from Bob with amount 15 succeeded
+2024/11/25 20:22:15 Bid from Bob with amount 15 succeeded
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Bid from Bob with amount 15 failed
+2024/11/25 20:22:15 Node 1 is active
+2024/11/25 20:22:15 Node 2 is active
+2024/11/25 20:22:15 Node 3 is active
+2024/11/25 20:22:17 Current highest bid: 15 by Bob
+2024/11/25 20:22:17 Bid from Alice with amount 16 succeeded
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 succeeded
+2024/11/25 20:22:17 Bid from Alice with amount 16 succeeded
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:17 Bid from Alice with amount 16 failed
+2024/11/25 20:22:18 Current highest bid: 16 by Alice
+2024/11/25 20:22:18 Bid from Alice with amount 17 succeeded
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 succeeded
+2024/11/25 20:22:18 Bid from Alice with amount 17 succeeded
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:18 Bid from Alice with amount 17 failed
+2024/11/25 20:22:19 Current highest bid: 17 by Alice
+2024/11/25 20:22:19 Bid from Bob with amount 18 succeeded
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 succeeded
+2024/11/25 20:22:19 Bid from Bob with amount 18 succeeded
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:19 Bid from Bob with amount 18 failed
+2024/11/25 20:22:22 Node 1 is active
+2024/11/25 20:22:22 Node 2 is active
+2024/11/25 20:22:22 Node 3 is active

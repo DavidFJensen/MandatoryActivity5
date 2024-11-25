@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	// Set up logging to a common file
+	// Set up logging to a file
 	logFile, logErr := os.OpenFile("log.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if logErr != nil {
 		log.Fatalf("failed to open log file: %v", logErr)
