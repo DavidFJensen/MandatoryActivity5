@@ -78,6 +78,9 @@ func (s *AuctionServer) Bid(ctx context.Context, req *pb.BidRequest) (*pb.BidRes
 		}
 	}
 
+	// Log the current highest bid and bidder
+	log.Printf("Current highest bid: %d by %s", s.highestBid, s.highestBidder)
+
 	return &pb.BidResponse{Message: "success"}, nil
 }
 
@@ -113,7 +116,12 @@ func (s *AuctionServer) Result(ctx context.Context, req *pb.ResultRequest) (*pb.
 }
 
 func main() {
-	// Set up logging to a file
+	if len(os.Args) != 2 {
+		log.Fatalf("Usage: %s <port>", os.Args[0])
+	}
+	port := os.Args[1]
+
+	// Set up logging to a common file
 	logFile, err := os.OpenFile("log.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("failed to open log file: %v", err)
@@ -121,13 +129,19 @@ func main() {
 	defer logFile.Close()
 	log.SetOutput(logFile)
 
-	lis, err := net.Listen("tcp", ":50051")
+	lis, err := net.Listen("tcp", ":"+port)
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
 
 	grpcServer := grpc.NewServer()
-	pb.RegisterAuctionServer(grpcServer, NewAuctionServer())
+	server := NewAuctionServer()
+	server.nodes = []*Node{
+		{nodeID: 1, addr: "localhost:50051", active: true},
+		{nodeID: 2, addr: "localhost:50052", active: true},
+		{nodeID: 3, addr: "localhost:50053", active: true},
+	}
+	pb.RegisterAuctionServer(grpcServer, server)
 
 	log.Printf("server listening at %v", lis.Addr())
 	if err := grpcServer.Serve(lis); err != nil {
