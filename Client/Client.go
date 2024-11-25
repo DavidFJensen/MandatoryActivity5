@@ -4,7 +4,9 @@ import (
 	"context"
 	"log"
 	"math/rand"
+	"os"
 	"strconv"
+	"strings"
 	"time"
 
 	pb "MandatoryActivity5/MandatoryActivity5/Node.go"
@@ -13,6 +15,14 @@ import (
 )
 
 func main() {
+	// Set up logging to a file
+	logFile, logErr := os.OpenFile("log.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	if logErr != nil {
+		log.Fatalf("failed to open log file: %v", logErr)
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
 	nodes := []string{"localhost:50051", "localhost:50052", "localhost:50053"}
 	var conn *grpc.ClientConn
 	var err error
@@ -51,14 +61,16 @@ func main() {
 					continue
 				}
 
+				highestBid := resultResp.GetHighestbid()
+
 				// Check if the auction is over
-				if resultResp.GetHighestbid() == "" || resultResp.GetHighestbid()[:13] == "Auction over." {
-					log.Printf("Auction result: %s", resultResp.GetHighestbid())
+				if strings.HasPrefix(highestBid, "Auction over.") {
+					log.Printf("Auction result: %s", highestBid)
 					return
 				}
 
 				// Place a new bid higher than the current highest bid
-				currentHighestBid, err := strconv.Atoi(resultResp.GetHighestbid())
+				currentHighestBid, err := strconv.Atoi(highestBid)
 				if err != nil {
 					log.Printf("could not convert highest bid to int: %v", err)
 					continue

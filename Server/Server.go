@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"os"
 	"sync"
 	"time"
 
@@ -62,11 +63,13 @@ func (s *AuctionServer) Bid(ctx context.Context, req *pb.BidRequest) (*pb.BidRes
 	defer s.mu.Unlock()
 
 	if req.Amount <= s.highestBid {
+		log.Printf("Bid from %s with amount %d failed", req.Bidder, req.Amount)
 		return &pb.BidResponse{Message: "fail"}, nil
 	}
 
 	s.highestBid = req.Amount
 	s.highestBidder = req.Bidder
+	log.Printf("Bid from %s with amount %d succeeded", req.Bidder, req.Amount)
 
 	// Replicate bid to other nodes
 	for _, node := range s.nodes {
@@ -101,13 +104,23 @@ func (s *AuctionServer) Result(ctx context.Context, req *pb.ResultRequest) (*pb.
 	defer s.mu.Unlock()
 
 	if time.Since(s.startTime) < 100*time.Second {
+		log.Printf("Current highest bid: %d by %s", s.highestBid, s.highestBidder)
 		return &pb.ResultResponse{Highestbid: fmt.Sprintf("%d", s.highestBid)}, nil
 	}
 
+	log.Printf("Auction over. Winner: %s with bid %d", s.highestBidder, s.highestBid)
 	return &pb.ResultResponse{Highestbid: fmt.Sprintf("Auction over. Winner: %s with bid %d", s.highestBidder, s.highestBid)}, nil
 }
 
 func main() {
+	// Set up logging to a file
+	logFile, err := os.OpenFile("log.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	if err != nil {
+		log.Fatalf("failed to open log file: %v", err)
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
 	lis, err := net.Listen("tcp", ":50051")
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
