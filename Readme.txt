@@ -11,11 +11,7 @@ The system consists of multiple nodes running on distinct processes. Clients can
 ## Running the System
 
 1. Start the server:
-    ```sh
     go run Server.go
-    ```
 
 2. Start the client:
-    ```sh
     go run Client.go
-    ```
